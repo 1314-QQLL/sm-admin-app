@@ -1,0 +1,19 @@
+{
+  "name": "sm-admin-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "综合管理平台后端 API（Node.js + Express + 内置 SQLite）",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed.js --force",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
